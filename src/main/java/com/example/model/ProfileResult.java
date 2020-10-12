@@ -6,12 +6,13 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.*;
+import javax.persistence.Table;
 import java.time.LocalDate;
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@javax.persistence.Table(name = "profile_result")
+@Table(name = "profile_result")
 public class ProfileResult {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

@@ -7,12 +7,13 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.*;
+import javax.persistence.Table;
 import java.util.Set;
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@javax.persistence.Table(name = "source")
+@Table(name = "source")
 public class Source {
 
     @Id

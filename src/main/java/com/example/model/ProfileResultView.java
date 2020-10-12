@@ -14,11 +14,10 @@ import java.util.Objects;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "profile_result_view2")
+@Table(name = "profile_result_view")
 @Immutable
-public class ProfileResultView implements Serializable {
+public class ProfileResultView {
 
-    private static final long serialVersionUID = 1L;
     @Id
     @Column(name = "id")
     private long profileResultId;
