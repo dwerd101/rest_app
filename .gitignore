@@ -107,3 +107,4 @@ out/artifacts/stock_inventory_war_exploded/META-INF/MANIFEST.MF
 
 target/
 .iml
+.DS_Store
