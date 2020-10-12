@@ -1,0 +1,28 @@
+2020-10-09 15:20:03,190 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProfileTaskControllerTest on MacBook-Air.local with PID 23685 (started by roman in /Users/roman/Desktop/work/work_coll2/work_collaboration/Roman/REST/demo)
+2020-10-09 15:20:03,193 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-10-09 15:20:03,195 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-10-09 15:20:04,349 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-09 15:20:04,350 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-09 15:20:04,515 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 144ms. Found 5 JPA repository interfaces.
+2020-10-09 15:20:04,810 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-09 15:20:04,811 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-09 15:20:04,824 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2020-10-09 15:20:06,135 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-09 15:20:06,259 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-10-09 15:20:06,555 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-09 15:20:06,810 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-10-09 15:20:07,015 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-10-09 15:20:07,086 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-09 15:20:08,797 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-09 15:20:08,809 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-09 15:20:10,216 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-09 15:20:10,622 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-09 15:20:11,432 WARN org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration [main] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-10-09 15:20:11,536 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-10-09 15:20:11,537 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-10-09 15:20:11,559 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 21 ms
+2020-10-09 15:20:11,598 INFO org.springframework.boot.StartupInfoLogger [main] Started ProfileTaskControllerTest in 14.171 seconds (JVM running for 17.508)
+2020-10-09 15:20:12,401 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-09 15:20:12,409 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-09 15:20:12,416 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-10-09 15:20:12,427 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
